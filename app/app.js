@@ -22,19 +22,19 @@ app.config(function($stateProvider, $urlRouterProvider)
 
    .state('index.sobre', {
         url: "sobre",
-        templateUrl : 'app/views/sobre.html',
+        templateUrl : 'app/views/em_construcao.html',
         controller  : 'SobreCtrl'
    })
 
    .state('index.dev', {
         url: "dev",
-        templateUrl : 'app/views/dev.html',
+        templateUrl : 'app/views/em_construcao.html',
         controller  : 'DevCtrl'
     })
 
     .state('index.contato', {
         url: "contato",
-        templateUrl : 'app/views/contato.html',
+        templateUrl : 'app/views/em_construcao.html',
         controller  : 'ContatoCtrl'
     });
 

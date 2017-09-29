@@ -26,6 +26,13 @@
             "class": "sc-linkedin",
             "icon": "fa fa-linkedin",
             "target": "_blank"
+        },
+        {
+            "rede": "Instagram",
+            "link": "https://www.instagram.com/rony_freitas/",
+            "class": "sc-instagram",
+            "icon": "fa fa-instagram",
+            "target": "_blank"
         }
     ]
 }
