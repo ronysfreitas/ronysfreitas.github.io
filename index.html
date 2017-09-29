@@ -1,29 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" ng-app="app">
 <head>
-    <link href='fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="css/native.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
 
+    <!-- Angular JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+    <script src="//unpkg.com/angular-ui-router@0.3.1/release/angular-ui-router.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers.js"></script>
 
+    <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Meta Tags -->
+    <title>Rony Freitas</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="" />
-
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#d9411e">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#d9411e">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
     <meta name="author" content="Rony Freitas" />
     <meta name="description" content="My Page Personal" />
     <meta property="og:site_name" content="Rony Freitas"/>
@@ -34,90 +43,29 @@
     <meta property="og:url" content="https://ronysfreitas.github.io"/>
     <meta property="og:image" content="/images/profile.jpg">
 
-    <title>Rony Freitas</title>
 </head>
-<body>
+<body ng-controller="AppCtrl">
+
   <aside>
     <div>
-      <a href="https://ronysfreitas.github.io">
-        <img src="images/profile.jpg" alt="Rony Freitas" title="Rony Freitas">
-      </a>
-      <h1><a href="https://ronysfreitas.github.io">Rony Freitas</a></h1>
-
-        <hr/>
-        <p>Hello, World! I’m a Computer Engineer student and work as a Full-Stack Developer web and mobile!</p>
-        <hr/>
+        <img src="{{myData.img}}" alt="{{myData.nome}}" title="{{myData.nome}}" />
+        <h1>{{myData.nome}}</h1>
+        <hr/><p>{{myData.descricao}}</p><hr/>
 
       <ul class="social">
-        <li><a class="sc-github" href="https://github.com/ronysfreitas" target="_blank"><i class="fa fa-github"></i></a></li>
-        <li><a class="sc-facebook" href="http://fb.com/rony.soares.freitas" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/rony-freitas/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li ng-repeat="rede in myData.social"><a class="{{rede.class}}" href="{{rede.link}}" target="{{rede.target}}"><i class="{{rede.icon}}"></i></a> </li>
       </ul>
-
     </div>
   </aside>
-
 
   <main>
 
     <nav>
-      <a href="https://ronysfreitas.github.io">Home</a>
-      <a href="#">Desenvolvimento</a>
-      <a href="#">Trabalhos</a>
-      <a href="mailto:ronyfreitas98@gmail.com" target="_top">Contato</a>
+        <a ng-repeat="nav in navs" ui-sref="{{nav.href}}" target="{{nav.target}}">{{nav.nome}}</a>
     </nav>
 
-    <article>
-        <header>
-            <h2><a href="#">Post de exemplo</a></h2>
-            <p>
-                    &#8226; 
-                    Posted on Sat 13 August 2016 in 
-                    <a href="#">Linkedin</a>
-            </p>
-        </header>
-        <div>
-            <p>Descrição pequena (ou grande) do post.</p>
-            <br>
-            <a class="btn" href="#">Continue lendo</a>
-        </div>
-        <hr />
-    </article>
-
-    <article>
-            <header>
-                <h2><a href="#">Post de exemplo</a></h2>
-                <p>
-                        &#8226; 
-                        Posted on Sat 13 August 2016 in 
-                        <a href="#">Linkedin</a>
-                </p>
-            </header>
-            <div>
-                <p>Descrição pequena (ou grande) do post.</p>
-                <br>
-                <a class="btn" href="#">Continue lendo</a>
-            </div>
-            <hr />
-    </article>
-
-    <article>
-                <header>
-                    <h2><a href="#">Post de exemplo</a></h2>
-                    <p>
-                            &#8226; 
-                            Posted on Sat 13 August 2016 in 
-                            <a href="#">Linkedin</a>
-                    </p>
-                </header>
-                <div>
-                    <p>Descrição pequena (ou grande) do post.</p>
-                    <br>
-                    <a class="btn" href="#">Continue lendo</a>
-                </div>
-                <hr />
-    </article>
-
+    <div ui-view></div>
+    
     <footer>
         <p>&copy; Rony Freitas </p>
         <p>
@@ -130,16 +78,5 @@
         </p>    
     </footer>
 </main>
-
-<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Blog",
-  "name": " Rony Freitas ",
-  "url" : "https://ronysfreitas.github.io",
-  "image": "/images/profile.jpg",
-  "description": "My Page Personal"
-}
-</script>
 </body>
 </html>

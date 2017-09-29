@@ -1,0 +1,31 @@
+{
+    "nome": "Rony Freitas",
+
+    "img": "images/profile.jpg",
+
+    "descricao": "Hello, World! I’m a Computer Engineer student and work as a Full-Stack Developer web and mobile!",
+
+    "social": [
+        {
+            "rede": "Facebook",
+            "link": "http://fb.com/rony.soares.freitas",
+            "class": "sc-facebook",
+            "icon": "fa fa-facebook",
+            "target": "_blank"
+        },
+        {
+            "rede": "GitHub",
+            "link": "https://github.com/ronysfreitas",
+            "class": "sc-github",
+            "icon": "fa fa-github",
+            "target": "_blank"
+        },
+        {
+            "rede": "Linkedin",
+            "link": "https://www.linkedin.com/in/rony-freitas/",
+            "class": "sc-linkedin",
+            "icon": "fa fa-linkedin",
+            "target": "_blank"
+        }
+    ]
+}
