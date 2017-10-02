@@ -1,13 +1,13 @@
 [
     {
-        "titulo": "Aplicativo Android com WebView", 
-        "data": "Postado em 20 de abril de 2017",
-        "dataInt": 20170420,
+        "titulo": "1º Hackathon Android Accelerate - 'Melhorando meu Brasil'", 
+        "data": "Postado em 17 de abril de 2017",
+        "dataInt": 20170417,
     
-        "link": "https://ronysfreitas.github.io/webview/docs/pt-BR.html",
+        "link": "http://androidaccelerate.com.br/1o-hackathon-android-accelerate-2017/",
         "linkTarget": "_blank",
 
-        "descricao": "Este é um projeto modelo para o Android Studio que permite criar um aplicativo de webview do Android em questão de minutos. Você pode usá-lo para criar um aplicativo simples para o seu site ou como um ponto de partida para o seu aplicativo baseado em HTML5 Android."
+        "descricao": "Campeões do 1º Hackathon Android Accelerate  - 'Melhorando meu Brasil' - com a Equipe Numa Fria. A proposta era desafiar as habilidades dos competidores em desenvolver um aplicativo do zero com o tema ‘Melhorando meu Brasil’ e trabalhar em equipe com pessoas que mal conheciam, e trabalhar duro no tempo livre que tinham."
     },
     {
         "titulo": "Análise da gestão de redes sociais aplicada à Prefeitura Municipal de Pará de Minas", 
@@ -18,5 +18,25 @@
         "linkTarget": "_blank",
 
         "descricao": "Este trabalho tem por objetivo apresentar uma análise sobre a gestão de redes sociais da Prefeitura Municipal de Pará de Minas embasando-se de duas diferentes gestões e contextualizando-a como poderosa ferramenta para obtenção de informações e conhecimentos a partir de dados isolados. A ênfase principal deste documento é demonstrar como a Análise de Redes Sociais pode trazer valiosas informações. O foco prático baseia-se na mídia social Facebook, por meio de dados gerados pelo aplicativo Netvizz, analisados através de grafos pelo software Gephi."
+    },
+    {
+        "titulo": "Aplicativo Android com WebView", 
+        "data": "Postado em 20 de abril de 2017",
+        "dataInt": 20170420,
+    
+        "link": "https://ronysfreitas.github.io/webview/docs/pt-BR.html",
+        "linkTarget": "_blank",
+
+        "descricao": "Este é um projeto modelo para o Android Studio que permite criar um aplicativo de webview do Android em questão de minutos. Você pode usá-lo para criar um aplicativo simples para o seu site ou como um ponto de partida para o seu aplicativo baseado em HTML5 Android."
+    },
+    {
+        "titulo": "Participação Olimpíada Brasileira de Informática", 
+        "data": "Postado em 14 de novembro de 2014",
+        "dataInt": 20141114,
+    
+        "link": "http://olimpiada.ic.unicamp.br/passadas/OBI2014/qmerito/programacao1",
+        "linkTarget": "_blank",
+
+        "descricao": "Uma competição organizada nos moldes das outras olimpíadas científicas brasileiras, como Matemática, Física e Astronomia. O objetivo da OBI é despertar nos alunos o interesse por uma ciência importante na formação básica hoje em dia (no caso, ciência da computação), através de uma atividade que envolve desafio, engenhosidade e uma saudável dose de competição. A organização da OBI está cargo do Instituto de Computação da UNICAMP."
     }
 ]
