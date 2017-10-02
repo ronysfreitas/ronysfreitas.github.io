@@ -1,0 +1,34 @@
+[
+    {
+        "nome": "Notícias da Ascipam",
+        "linkProjeto": "https://play.google.com/store/apps/details?id=br.com.ascipam.app&hl=pt_BR",
+        "linkPost": "",
+        "dataLancamento": "Publicado em 4 de maio de 2017",
+        "dataInt": 20170504,
+        "descricao": "Com o objetivo de manter o associado sempre atualizado a Ascipam lançou um aplicativo de notícias para proporcionar mais agilidade às informações sobre o que acontece no mercado de Pará de Minas e sobre as ações realizadas pela entidade. Através do app, qualquer pessoa terá em mãos, de forma prática e rápida, as notícias sobre a programação e os eventos que a Ascipam realiza. Além disso, o associado terá mais um canal para divulgação de sua empresa."
+    },
+    {
+        "nome": "Agência de Oportunidades",
+        "linkProjeto": "http://ascipam.com.br/oportunidades/",
+        "linkPost": "",
+        "dataLancamento": "Publicado em 11 de junho de 2016",
+        "dataInt": 20160611,
+        "descricao": "A Agência de Oportunidades é um programa desenvolvido para prestar atendimento aos cidadãos que buscam recolocação no mercado de trabalho, com a finalidade de proporcionar encaminhamento de currículos dos interessados para as empresas solicitantes."
+    },
+    {
+        "nome": "Central do Associado",
+        "linkProjeto": "http://ascipam.com.br/associados/",
+        "linkPost": "",
+        "dataLancamento": "Publicado em 29 de dezembro de 2016",
+        "dataInt": 20161229,
+        "descricao": "O Central do Associado é composto apenas por afiliados à Associação Empresarial de Pará de Minas. Agenda de compromissos, lista de tarefas e o utilitário de correção monetária que podem ser utilizados em qualquer lugar e horário."
+    },
+    {
+        "nome": "Aplicativo - Agência de Oportunidades",
+        "linkProjeto": "https://play.google.com/store/apps/details?id=br.com.ascipam.oportunidades",
+        "linkPost": "",
+        "dataLancamento": "Publicado em 15 de março de 2017",
+        "dataInt": 20170315,
+        "descricao": "A Agência de Oportunidades é um programa desenvolvido para prestar atendimento aos cidadãos que buscam recolocação no mercado de trabalho, com a finalidade de proporcionar encaminhamento de currículos dos interessados para as empresas solicitantes."
+    }
+]

@@ -10,10 +10,13 @@ app.controller('SobreCtrl', function()
     
 });
 
-app.controller('DevCtrl', function()
+app.controller('ProjetosCtrl', function($http, $scope)
 {
-    
+    $http.get('json/posts/postsProjetos.json').then(function (response) {
+        $scope.projetos = response.data;
+    });
 });
+
 
 app.controller('ContatoCtrl', function()
 {

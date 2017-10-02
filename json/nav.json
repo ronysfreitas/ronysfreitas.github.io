@@ -5,13 +5,13 @@
         "target": ""
     },
     {
-        "nome": "Desenvolvimento",
-        "href": "index.dev", 
+        "nome": "Sobre",
+        "href": "index.sobre", 
         "target": ""
     },
     {
-        "nome": "Sobre",
-        "href": "index.sobre", 
+        "nome": "Projetos",
+        "href": "index.projetos", 
         "target": ""
     },
     {

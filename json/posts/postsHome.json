@@ -1,7 +1,8 @@
 [
     {
-        "titulo": "APP Android com WebView", 
-        "data": "Postado em Sex, 29 Set 2017", 
+        "titulo": "Aplicativo Android com WebView", 
+        "data": "Postado em 20 de abril de 2017",
+        "dataInt": 20170420,
     
         "link": "https://ronysfreitas.github.io/webview/docs/pt-BR.html",
         "linkTarget": "_blank",
@@ -10,7 +11,8 @@
     },
     {
         "titulo": "Análise da gestão de redes sociais aplicada à Prefeitura Municipal de Pará de Minas", 
-        "data": "Postado em Sex, 29 Set 2017", 
+        "data": "Postado em 12 de julho de 2017",
+        "dataInt": 20170712,
 
         "link": "https://github.com/ronysfreitas/UEMG-AED-III-GRAFOS",
         "linkTarget": "_blank",

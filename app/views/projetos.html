@@ -1,0 +1,21 @@
+<!-- projetos.html -->
+<article>
+        <div ng-repeat="projeto in projetos">
+            <header>
+                <h2><a  href="{{projeto.linkPost}}">{{projeto.nome}}</a></h2>
+                <p>&#8226;  {{projeto.dataLancamento}}</p>
+            </header>
+            <div>
+                <p>{{projeto.descricao}}</p>
+                <br>
+
+                <!-- <a class="btn" href="#" >Ver mais</a> -->
+                <a class="btn" href="{{projeto.linkProjeto}}" target="_blank">Acessar</a>
+
+                <div class='fb-share-button' data-href="{{projeto.linkProjeto}}" layout-align="end"
+                data-mobile_iframe='true' data-layout='button'></div>
+
+                </div>
+            <hr/>
+        </div>
+</article>

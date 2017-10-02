@@ -26,10 +26,10 @@ app.config(function($stateProvider, $urlRouterProvider)
         controller  : 'SobreCtrl'
    })
 
-   .state('index.dev', {
-        url: "dev",
-        templateUrl : 'app/views/em_construcao.html',
-        controller  : 'DevCtrl'
+    .state('index.projetos', {
+        url: "projetos",
+        templateUrl : 'app/views/projetos.html',
+        controller  : 'ProjetosCtrl'
     })
 
     .state('index.contato', {
