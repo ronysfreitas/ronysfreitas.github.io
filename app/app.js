@@ -36,6 +36,12 @@ app.config(function($stateProvider, $urlRouterProvider)
         url: "contato",
         templateUrl : 'app/views/em_construcao.html',
         controller  : 'ContatoCtrl'
+    })
+
+    .state('index.view', {
+        url: "{urlMD}",
+        templateUrl : 'app/views/viewMD.html',
+        controller  : 'ViewMDCtrl'
     });
 
 });

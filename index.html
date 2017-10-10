@@ -9,8 +9,11 @@
     <link rel="stylesheet" type="text/css" href="css/layout.css">
 
     <!-- Angular JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
-    <script src="//unpkg.com/angular-ui-router@0.3.1/release/angular-ui-router.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+
+    <script src="js/showdown.min.js"></script>
+
     <script src="app/app.js"></script>
     <script src="app/controllers.js"></script>
 
@@ -49,7 +52,7 @@
   <aside>
     <div>
         <img src="{{myData.img}}" alt="{{myData.nome}}" title="{{myData.nome}}" />
-        <h1>{{myData.nome}}</h1>
+        <h1 class="h1Title">{{myData.nome}}</h1>
         <hr/><p>{{myData.descricao}}</p><hr/>
 
       <ul class="social">

@@ -2,13 +2,19 @@
 <div>
     <article ng-repeat="post in posts">
                 <header>
-                    <h2><a  href="{{post.link}}" target="{{post.linkTarget}}">{{post.titulo}}</a></h2>
+                    <h2>{{post.titulo}}</h2>
                     <p>&#8226;  {{post.data}}</p>
                 </header>
                 <div>
                     <p>{{post.descricao}}</p>
                     <br>
-                    <a class="btn" href="{{post.link}}" target="{{post.linkTarget}}">Continue lendo</a>
+                    
+                    <a class="btn btn-google" 
+                    ui-sref="index.view({urlMD: post.urlMD})" 
+                    ng-if="post.urlMD.length > 0"
+                    >Continue lendo</a>
+
+                    <a class="btn btn-google" href="{{post.link}}" target="{{post.linkTarget}}">Fonte</a>
 
                     <div class='fb-share-button' data-href="{{post.link}}" layout-align="end"
                     data-mobile_iframe='true' data-layout='button'></div>

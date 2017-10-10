@@ -1,0 +1,8 @@
+![alt tag](https://raw.githubusercontent.com/ronysfreitas/UEMG-AED-III-GRAFOS/master/Imagens/artigo/0001.jpg)
+![alt tag](https://raw.githubusercontent.com/ronysfreitas/UEMG-AED-III-GRAFOS/master/Imagens/artigo/0002.jpg)
+![alt tag](https://raw.githubusercontent.com/ronysfreitas/UEMG-AED-III-GRAFOS/master/Imagens/artigo/0003.jpg)
+![alt tag](https://raw.githubusercontent.com/ronysfreitas/UEMG-AED-III-GRAFOS/master/Imagens/artigo/0004.jpg)
+![alt tag](https://raw.githubusercontent.com/ronysfreitas/UEMG-AED-III-GRAFOS/master/Imagens/artigo/0005.jpg)
+![alt tag](https://raw.githubusercontent.com/ronysfreitas/UEMG-AED-III-GRAFOS/master/Imagens/artigo/0006.jpg)
+![alt tag](https://raw.githubusercontent.com/ronysfreitas/UEMG-AED-III-GRAFOS/master/Imagens/artigo/0007.jpg)
+![alt tag](https://raw.githubusercontent.com/ronysfreitas/UEMG-AED-III-GRAFOS/master/Imagens/artigo/0008.jpg)

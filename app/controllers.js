@@ -33,3 +33,13 @@ app.controller('AppCtrl', function($http, $scope)
         $scope.myData = response.data;
     });
 });
+
+app.controller('ViewMDCtrl', function($http, $stateParams)
+{
+    $http.get('contents/' + $stateParams.urlMD + '.md').then(function (response) {
+        var converter = new showdown.Converter();
+        var html = converter.makeHtml(response.data);
+    
+        document.getElementById("viewMD").innerHTML = html;
+    });
+});

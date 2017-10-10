@@ -1,4 +1,4 @@
-h1{
+.h1Title{
     font-family: 'Dancing Script', cursive;
     font-style: bold;
     font-size: 50px;
@@ -6,4 +6,56 @@ h1{
 
 .sc-instagram{
     background-color: #e95950;
+}
+
+#divViewMD{
+    padding: 50px;
+}
+
+pre {
+    background-color: #333;
+    border: 1px solid #333;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px
+}
+
+code {
+    color:#FFF;
+}
+
+li {
+    list-style-type: disc;
+    padding: 0 12px;
+}
+
+.btn {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    border: none;
+}
+.btn-google {
+    background-color: #009688;
+    color: #fff;
+}
+
+.btn {
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
