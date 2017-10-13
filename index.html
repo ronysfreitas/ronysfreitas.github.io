@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt" ng-app="app">
+<html lang="pt" ng-app="app" ng-controller="AppCtrl">
 <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -41,24 +41,22 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <!-- Meta Tags -->
-    <title>Rony Freitas</title>
+    <title>{{Page.title()}}</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="" />
-    <meta name="author" content="Rony Freitas" />
-    <meta name="description" content="My Page Personal" />
-    <meta property="og:site_name" content="Rony Freitas"/>
+    <meta name="author" content="{{myData.nome}}" />
+    <meta name="description" content="My Page Personal - {{myData.descricao}}" />
+    <meta property="og:site_name" content="{{myData.nome}}"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:title" content="Rony Freitas"/>
-    <meta property="og:description" content="My Personal Page - Hello, World! I’m a Computer Engineer student and work as a Full-Stack Developer web and mobile!"/>
+    <meta property="og:title" content="{{Page.title()}}"/>
+    <meta property="og:description" content="My Personal Page - {{myData.descricao}}"/>
     <meta property="og:locale" content="pt_BR"/>
     <meta property="og:url" content="https://ronysfreitas.github.io"/>
     <meta property="og:image" content="https://ronysfreitas.github.io/images/profile_2.png">
 
 </head>
-<body ng-controller="AppCtrl">
+<body>
 
   <aside>
     <div>

@@ -2,6 +2,14 @@ var app = angular.module('app', [
     'ui.router'
 ]);
 
+app.factory('Page', function() {
+    var title = 'Rony Freitas';
+    return {
+      title: function() { return title; },
+      setTitle: function(newTitle) { title = newTitle }
+    };
+});
+
 app.config(function($stateProvider, $urlRouterProvider)
 {
 
