@@ -55,13 +55,14 @@
     <meta property="og:locale" content="pt_BR"/>
     <meta property="og:url" content="https://ronysfreitas.github.io"/>
     <meta property="og:image" content="https://ronysfreitas.github.io/images/profile_2.png">
+    <meta property="fb:app_id" content="241209233072745" />
 
 </head>
 <body ng-controller="AppCtrl">
 
   <aside>
     <div>
-        <img src="{{myData.img}}" alt="{{myData.nome}}" title="{{myData.nome}}" />
+        <img ng-src="{{myData.img}}" alt="{{myData.nome}}" title="{{myData.nome}}" />
         <h1 class="h1Title">{{myData.nome}}</h1>
         <hr/><p>{{myData.descricao}}</p><hr/>
 
