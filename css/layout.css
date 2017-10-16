@@ -9,7 +9,18 @@
 }
 
 #divViewMD{
-    padding: 50px;
+    padding: 25px;
+}
+
+@media (max-width:960px){
+    #divViewMD{
+        padding: 15px;
+        }
+     }
+@media (min-width:960px){
+    #divViewMD{
+        padding: 50px; 
+    }
 }
 
 a{
