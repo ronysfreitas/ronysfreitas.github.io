@@ -1,6 +1,6 @@
 ## Análise da gestão de redes sociais aplicada à Prefeitura Municipal de Pará de Minas
 
-Engenharia da Computação - Algoritmos e Estrutura de Dados III\
+Engenharia da Computação - Algoritmos e Estrutura de Dados III 
 UEMG - Universidade do Estado de Minas Gerais
 
 #### Resumo
@@ -110,6 +110,7 @@ Através do estudo realizado, pode-se concluir que no primeiro semestre de 2017 
 #### Referências
 
 Orgnet. Social Network Analysis: An Introduction. Disponível em: <http://www.orgnet.com/sna.html>. Acesso em 04 de Julho de 2017.
+
 Github. Wiki Gephi. Disponivel em <https://github.com/gephi/gephi/wiki>. Acesso em 07 de julho de 2017.
 
 Facebook. Sobre o Facebook. Disponível em: <https://www.facebook.com>. Acesso em 04 de Julho de 2017.
