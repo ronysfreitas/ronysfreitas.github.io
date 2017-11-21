@@ -24,6 +24,7 @@
     <script src="js/angular-ui-router.min.js"></script>
 
     <script src="js/showdown.min.js"></script>
+    <script src="js/typed.min.js"></script>
 
     <script src="app/app.js"></script>
     <script src="app/controllers.js"></script>
@@ -64,7 +65,7 @@
     <div>
         <img ng-src="{{myData.img}}" alt="{{myData.nome}}" title="{{myData.nome}}" />
         <h1 class="h1Title">{{myData.nome}}</h1>
-        <hr/><p>{{myData.descricao}}</p><hr/>
+        <hr/><span id="myDescricao"></span><hr/>
 
       <ul class="social">
         <li ng-repeat="rede in myData.social"><a class="{{rede.class}}" href="{{rede.link}}" target="{{rede.target}}"><i class="{{rede.icon}}"></i></a> </li>
@@ -102,6 +103,15 @@
   js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=241209233072745";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+var typed = new Typed('#myDescricao', {
+  strings: ['Hello, World! I’m Rony Soares de Freitas, a Computer Engineer student, Computer Technician and Developer Full-Stack Web and Mobile. Tech Lover #0010'],
+  typeSpeed: 40,
+  startDelay: 1000,
+  cursorChar: '_'
+});
+</script>
 
 </body>
 </html>
