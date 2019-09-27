@@ -9,7 +9,7 @@
     },
     {
         "nome": "Agência de Oportunidades",
-        "linkProjeto": "http://ascipam.com.br/oportunidades/",
+        "linkProjeto": "http://ascipam.com.br/oportunidades/2",
         "linkPost": "",
         "dataLancamento": "Publicado em 11 de junho de 2016",
         "dataInt": 20160611,
@@ -24,8 +24,40 @@
         "descricao": "O Central do Associado é composto apenas por afiliados à Associação Empresarial de Pará de Minas. Agenda de compromissos, lista de tarefas e o utilitário de correção monetária que podem ser utilizados em qualquer lugar e horário."
     },
     {
+        "nome": "(Portal) CreateJoy - Educação Tecnológica",
+        "linkProjeto": "https://portal.createjoy.com.br/",
+        "linkPost": "",
+        "dataLancamento": "Publicado em 11 de setembro de 2018",
+        "dataInt": 20180911,
+        "descricao": "A CreateJoy é uma escola que ensina programação, robótica, desenho mecânico, desenvolvimento de aplicativos, eletrônica, entre outras disciplinas relacionadas à tecnologia para crianças e adolescentes. Os alunos aprendem através da prática, com projetos que estimulam o raciocínio lógico, a comunicação, a habilidade de resolver problemas."
+    },
+    {
+        "nome": "(APP) CreateJoy - Educação Tecnológica",
+        "linkProjeto": "https://play.google.com/store/apps/details?id=app.createjoy.com.br",
+        "linkPost": "",
+        "dataLancamento": "Publicado em 18 de agosto de 2018",
+        "dataInt": 20181018,
+        "descricao": "Acompanhar de perto o desempenho dos filhos em suas atividades é extremamente importante para seu desenvolvimento. Pensando nisso a CreateJoy desenvolveu um aplicativo onde pais e alunos podem acompanhar o andamento das aulas, notas e comportamento. Também pode verificar os Joys recebidos nas aulas, a poupança e a conta corrente do aluno."
+    },
+    {
+        "nome": "Rony Freitas - Blog",
+        "linkProjeto": "https://ronysfreitas.github.io/#/",
+        "linkPost": "",
+        "dataLancamento": "Publicado em 29 de setembro de 2017",
+        "dataInt": 20172909,
+        "descricao": "Site pessoal. Hello, World! I’m Rony Soares de Freitas, a Computer Engineer student, Computer Technician and Developer Full-Stack Web and Mobile. Tech Lover #0010_"
+    },
+    {
+        "nome": "Rolê Pará de Minas",
+        "linkProjeto": "https://play.google.com/store/apps/details?id=eventos.ronysfreitas.github.io",
+        "linkPost": "",
+        "dataLancamento": "Publicado em 22 de fevereiro de 2018",
+        "dataInt": 20180222,
+        "descricao": "Projeto pessoal. Um aplicativo essencial para os baladeiros. Fique por dentro dos eventos da cidade e também rodízios, as casas de show e tudo das noites de Pará de Minas e região. Fique ligado!"
+    },
+    {
         "nome": "Aplicativo - Agência de Oportunidades",
-        "linkProjeto": "https://play.google.com/store/apps/details?id=br.com.ascipam.oportunidades",
+        "linkProjeto": "#",
         "linkPost": "",
         "dataLancamento": "Publicado em 15 de março de 2017",
         "dataInt": 20170315,

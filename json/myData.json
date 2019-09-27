@@ -7,13 +7,6 @@
 
     "social": [
         {
-            "rede": "Facebook",
-            "link": "http://fb.com/rony.soares.freitas",
-            "class": "sc-facebook",
-            "icon": "fa fa-facebook",
-            "target": "_blank"
-        },
-        {
             "rede": "GitHub",
             "link": "https://github.com/ronysfreitas",
             "class": "sc-github",
@@ -29,7 +22,7 @@
         },
         {
             "rede": "Instagram",
-            "link": "https://www.instagram.com/rony_freitas/",
+            "link": "https://www.instagram.com/ronysfreitas/",
             "class": "sc-instagram",
             "icon": "fa fa-instagram",
             "target": "_blank"
